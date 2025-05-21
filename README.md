@@ -15,7 +15,7 @@ Este proyecto realiza la conversión de unidades de **centímetros a pulgadas** 
 
 ## 📚 Tecnologías y Librerías Usadas
 
-- Python 3.x
+- Python 3.13
 - Pandas
 - OpenPyXL
 
@@ -23,7 +23,15 @@ Este proyecto realiza la conversión de unidades de **centímetros a pulgadas** 
 
 ## ✅ Requisitos
 
-Antes de ejecutar el proyecto, asegúrate de tener las siguientes librerías instaladas:
+Antes de ejecutar el proyecto, después de clonarlo debes hacer en la carpeta del proyecto la siguiente instrucción:
 
-```bash
-pip install pandas openpyxl
+```
+pip install -r requirements.txt
+
+```
+Una vez hecho esto, para que convierta el Excel de Centímetros a Pulgadas debemos ejecutar en consola  
+
+```
+python programa_conversor.py
+
+```
